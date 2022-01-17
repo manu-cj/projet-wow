@@ -3,7 +3,6 @@
 ?>
 <div id="head">
     <div id="ui">
-
         <nav>
             <ul class="menu">
                 <li id="profil"><i class="fas fa-bars"></i>
@@ -13,6 +12,7 @@
                         <li>amis</li>
                         <li>paramètres</li>
                         <li>contactez-nous</li>
+                        <li><a href="../form/login-inscription.php">Login/inscription</a></li>
                     </ul>
                 </li>
             </ul>
