@@ -1,8 +1,7 @@
 <?php
-require __DIR__ . "/../helpers/verif.php";
+require __DIR__ . "/helpers/verif.php";
 
     if(isset($_POST['submit'])) {
-        // Getting secured form data.
         $mail = getSecuredStringPostData('mail');
         $message = getSecuredStringPostData('message');
     if ($mail === "sdqdq@gmail.com" and $message === "azerty") {
@@ -10,8 +9,10 @@ require __DIR__ . "/../helpers/verif.php";
     }?>
 <table>
     <tr>
-        <td>mail : <?= $mail ?></td>
-        <td>password : <?= $message?></td>
+        <td>mail</td>
+        <td>password</td>
+        <td><?=$mail?></td>
+        <td><?=$message?></td>
 
 
     </tr>
@@ -19,3 +20,6 @@ require __DIR__ . "/../helpers/verif.php";
 
     <?php
 }
+    else {
+        header('Location: ./form/login-inscription.php');
+    }
