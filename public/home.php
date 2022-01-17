@@ -18,7 +18,7 @@
             </ul>
         </nav>
         <div class="titre">
-            <h1><a href="" target="_blank">world of sapologie</a></h1>
+            <h1><a href="/../">world of sapologie</a></h1>
         </div>
         <div id="searchbar">
             <form action="" class="formulaire">
