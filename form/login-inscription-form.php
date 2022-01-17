@@ -1,9 +1,9 @@
 <?php
-require __DIR__ . "/helpers/verif.php";
+require __DIR__ . "/verif.php";
 
     if(isset($_POST['submit'])) {
         $mail = getSecuredStringPostData('mail');
-        $message = getSecuredStringPostData('message');
+        $message = getSecuredStringPostData('password');
     if ($mail === "sdqdq@gmail.com" and $message === "azerty") {
         echo "Vous êtes connecté";
     }?>

@@ -12,7 +12,7 @@ require __DIR__ . "/../public/home.php";
     </div>
     <div>
         <label for="id-password">message</label>
-        <input type="password" name="message" id="id-password">
+        <input type="password" name="password" id="id-password">
     </div>
     <div>
         <input type="submit" value="Send" name="submit">

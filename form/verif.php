@@ -6,19 +6,19 @@
  * @return string
  */
 function getSecuredStringPostData(string $name): string {
-    $data = $_GET[$name] ?? '';
+    $data = $_POST[$name] ?? '';
     return strip_tags($data);
 }
 
-
 /**
- * @param int $name
+ * @param string $name
  * @param int $defaultValue
  * @return int
  */
-function getSecuredIntPostData(int $name, int $defaultValue = 0): int {
-    $data =$_GET[$name] ?? $defaultValue;
+function getSecuredIntPostData(string $name, int $defaultValue = 0): int {
+    $data = $_POST[$name] ?? $defaultValue;
     return (int)$data;
 }
+
 
 
