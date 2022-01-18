@@ -1,23 +1,26 @@
+const password = document.getElementById('id-password');
+const passwordRepeat = document.getElementById('id-password-repeat');
+console.log(passwordRepeat);
 
-const formRegister = document.querySelector('#form-register');
+if (document.querySelector('#form-register')) {
 
-if (formRegister) {
 
-    const password = document.querySelector('#id-password');
-    const passwordRepeat = document.querySelector('#id-password-repeat');
-
-    function checkpassword() {
-        if (password.value !== passwordRepeat.value) {
-            passwordRepeat.setCustomValidity("Les mots de passe ne correspendent pas");
+    function checkpasswordRepeat() {
+        if (passwordRepeat.length !== password.length) {
+            passwordRepeat.setCustomValidity("Les mots de passe ne comporte pas le même nombre de caractères");
+            passwordRepeat.style.borderColor = 'red';
         }
-        else {
-            passwordRepeat.setCustomValidity("");
+        if (passwordRepeat.length === password.length) {
+            if (password.value !== passwordRepeat.value) {
+                passwordRepeat.setCustomValidity("Les mots de passe ne correspendent pas");
+                passwordRepeat.style.borderColor = 'red';
+            } else {
+                passwordRepeat.setCustomValidity("");
+            }
         }
     }
 
-    password.addEventListener('change', checkpassword);
-    passwordRepeat.addEventListener('keyup', checkpassword);
-    console.log(passwordRepeat.value)
 
+    password.addEventListener('change', checkpasswordRepeat,);
+    passwordRepeat.addEventListener('change', checkpasswordRepeat);
 }
-
