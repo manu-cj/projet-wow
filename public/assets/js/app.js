@@ -13,7 +13,7 @@ if (document.querySelector('#form-register')) {
         if (passwordRepeat.length === password.length) {
             if (password.value !== passwordRepeat.value) {
                 passwordRepeat.setCustomValidity("Les mots de passe ne correspendent pas");
-                passwordRepeat.style.borderColor = 'red';
+                passwordRepeat.style.borderColor = 'green';
             } else {
                 passwordRepeat.setCustomValidity("");
             }
