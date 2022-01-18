@@ -13,6 +13,9 @@ body {
     color: #fdebeb;
 }
 
+form {
+    margin: 15px;
+}
 
 #ui {
     display: flex;
