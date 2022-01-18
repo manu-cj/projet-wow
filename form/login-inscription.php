@@ -30,6 +30,22 @@ require __DIR__ . "/../public/home.php";
         <input type="number" name="age" id="id-age" min="0" max="120" placeholder="age" required>
     </div>
     <br>
+    <p>Classe :</p>
+    <select name="Classes">
+        <option>Guerrier</option>
+        <option>Paladin</option>
+        <option>Mage</option>
+        <option>Chasseur</option>
+        <option>Voleur</option>
+        <option>Moine</option>
+        <option>Démoniste</option>
+        <option>Chasseur de démon</option>
+        <option>Prêtre</option>
+        <option>Chaman</option>
+        <option>Druide</option>
+
+    </select>
+    <br>
     <div>
         <input type="submit" value="Send" name="submit">
     </div>
