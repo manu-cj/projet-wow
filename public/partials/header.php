@@ -12,8 +12,18 @@
 </head>
 <body>
 <div class="menu">
+    <div id="acceuil">
+        <ul>
+            <a href="/index.php">Acceuil</a>
+        </ul>
+    </div>
+    <div id="titre">
+        <a href="/index.php">WOS</a>
+    </div>
+
+
     <ul>
-        <a href="/index.php">Aceuil</a>
+
         <a href="/form/login-inscription.php">Connection/Inscription</a>
     </ul>
 </div>

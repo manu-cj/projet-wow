@@ -45,7 +45,6 @@ require __DIR__ . "/../public/home.php";
                 <option>Prêtre</option>
                 <option>Chaman</option>
                 <option>Druide</option>
-
             </select>
             <br>
             <div>

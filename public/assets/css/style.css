@@ -20,13 +20,28 @@ body {
     background-color: #015057;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
+}
+
+#acceuil {
+    width: 15%;
+    width: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#titre {
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
 }
 
 a {
     text-decoration-line: none;
-    color: #ffeaea;
+    color: rgb(245, 230, 230);
     font-size: 1.5em;
     font-weight: bold;
     display: inline-block;
@@ -36,6 +51,9 @@ a {
     background-color: #008091;
 }
 
+a:hover {
+    color: #e19fb5;
+}
 
 #inscription {
     display: flex;
@@ -54,10 +72,16 @@ input:focus {
     border-radius: 10px;
     outline      : none;
 }
+input::selection {
+    background-color: #00ff95;
+}
 
 #form-register {
     text-align: center;
     width: 40%;
     border: 8px ridge mediumspringgreen;
+    background-color: #c8fff5;
     border-radius: 10px;
+    backdrop-filter: blur(16px) saturate(180%)
 }
+
