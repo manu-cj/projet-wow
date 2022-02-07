@@ -13,8 +13,8 @@
 <body>
 <div class="menu">
     <ul>
-        <li><a href="/index.php">Aceuil</a></li>
-        <li><a href="/form/login-inscription.php">Connection/Inscription</a></li>
+        <a href="/index.php">Aceuil</a>
+        <a href="/form/login-inscription.php">Connection/Inscription</a>
     </ul>
 </div>
 
