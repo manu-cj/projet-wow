@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
     margin: 0;
@@ -20,16 +19,15 @@ body {
     background-color: #015057;
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 
 #acceuil {
-    width: 15%;
-    width: ;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+    color: rgb(245, 230, 230);
+    font-weight: bold;
+    display: inline-block;
+    width: 10%;
 }
 
 #titre {
@@ -53,6 +51,11 @@ a {
 
 a:hover {
     color: #e19fb5;
+}
+
+.icofont-user-alt-3 {
+    font-size: 2.5em;
+    color: #00C3DA;
 }
 
 #inscription {

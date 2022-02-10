@@ -9,23 +9,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>sapologie</title>
     <link rel="stylesheet" href="/public/assets/css/style.css">
+    <link rel="stylesheet" href="/public/assets/css/icofont/icofont.css">
+
 </head>
 <body>
 <div class="menu">
     <div id="acceuil">
-        <ul>
-            <a href="/index.php">Acceuil</a>
-        </ul>
+        <a href="/index.php">Acceuil</a>
     </div>
     <div id="titre">
         <a href="/index.php">WOS</a>
     </div>
-
-
-    <ul>
-
-        <a href="/form/login-inscription.php">Connection/Inscription</a>
-    </ul>
+    <a href="/form/login-inscription.php">Connection/Inscription</a>
+   <div>
+       <i class="icofont-user-alt-3"></i>
+   </div>
 </div>
 
 
