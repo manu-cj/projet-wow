@@ -10,7 +10,6 @@
     <title>sapologie</title>
     <link rel="stylesheet" href="/public/assets/css/style.css">
     <link rel="stylesheet" href="/public/assets/css/icofont/icofont.css">
-
 </head>
 <body>
 <div class="menu">
